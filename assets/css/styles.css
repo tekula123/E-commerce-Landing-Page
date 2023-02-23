@@ -531,7 +531,8 @@ code {
     border: 5px solid #ffffff;
     border-radius: 11px;
     margin-left: -147px;
-    /* margin-top: 100px; */
+    margin-bottom: 81px;
+    display: inline;
 }
 
 /* order-------------------------------------- */
@@ -614,4 +615,129 @@ code {
     font-size: 20px;
     line-height: 30px;
     color: var(--orange-color);
+}
+
+/* fashion------------------------------------- */
+.fashion {
+    width: 1170px;
+    height: 706px;
+    /* background: yellowgreen; */
+    margin: 157px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.fashion .column {
+    width: 345px;
+    height: 535px;
+    background: #ffffff;
+    box-shadow: 0px 38px 100px 4px rgba(137, 137, 137, 0.25);
+    border-radius: 14px;
+}
+.fashion .column .img-block {
+    margin: 105px auto 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.fashion .column .img-block .icon-mobile {
+    margin-left: -50px;
+}
+.fashion .column h2 {
+    margin-top: 14.55px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #1e2226;
+}
+.fashion .column p {
+    margin: 13.55px auto 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #696a72;
+    width: 229px;
+}
+.fashion .column .read-more {
+    display: block;
+    margin: 19.64px auto 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--orange-color);
+}
+.fashion .column .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 96px auto 0;
+    width: 156px;
+    height: 50px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+.fashion .column:nth-child(2) .btn {
+    margin-top: 70px;
+}
+.fashion .column:hover {
+    align-self: flex-start;
+    transform: translateY(-171px);
+    box-shadow: unset;
+    background: var(--orange-color);
+    transition: 0.5s;
+    animation-delay: 0.2s;
+}
+.fashion .column:hover .btn {
+    background-color: white;
+    color: var(--primary-color);
+}
+.fashion .column:hover p {
+    color: white;
+}
+
+/* count------------------------------------------------------- */
+.count {
+    width: 1170px;
+    height: 293px;
+    background: #ededed;
+    border-radius: 19px;
+    margin: 243px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 79px;
+    padding: 91px 207px 54px;
+}
+.count .column .number {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+.count .column .desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 70px;
+    color: #6c6c6c;
+    margin-top: 8px;
+}
+.count span {
+    width: 0px;
+    height: 121.5px;
+    left: 410.35px;
+    top: 91px;
+    border: 1.5px solid #bbbbbb;
 }
